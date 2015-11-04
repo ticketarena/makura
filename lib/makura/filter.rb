@@ -1,6 +1,6 @@
 module Makura
   class Filter
-    attr_accessor :design, :name, :script
+    attr_accessor :design, :name, :filter
     
     PATH = [
       './couch',
